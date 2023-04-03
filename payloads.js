@@ -2,7 +2,7 @@ var payload;
 
 function loadPayload(pl){
 	sessionStorage.Queue = pl;
-	progress.innerHTML="Loading "+pl+".. Please Wait !!";
+	progress.innerHTML="  تحميل "+pl+"  انتظر من فضلك !!";
 	setTimeout(poc, 1500);
 }
 
